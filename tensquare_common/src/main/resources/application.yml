@@ -1,0 +1,4 @@
+jwt:
+  config:
+    key: linte
+    ttl: 30

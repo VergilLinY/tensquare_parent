@@ -21,9 +21,9 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.tensquare</groupId>
-            <artifactId>tensquare_common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+          <groupId>com.tensquare</groupId>
+          <artifactId>tensquare_common</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

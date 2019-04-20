@@ -1,0 +1,28 @@
+server: 
+  port: 9008
+spring: 
+  application:  
+    name: tensquare-user #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.156.57:3306/tensquare_user?characterEncoding=UTF-8
+    username: root
+    password: '031200'
+  jpa: 
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 47.102.156.57
+  rabbitmq:
+    host: 47.102.156.57
+jwt:
+  config:
+    key: linte
+    ttl: 30
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true
+
